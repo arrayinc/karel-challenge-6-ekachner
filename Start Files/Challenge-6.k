@@ -54,7 +54,7 @@ function ringDoorBell(){
 
 
 function trickOrTreat(){
-	repeat(9){
+	while(frontIsClear()){
 		while(rightIsBlocked()){
 			move();
 		}
